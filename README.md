@@ -24,10 +24,10 @@
 
 | Area            | Tools & Technologies                      |
 |-----------------|--------------------------------------------|
-| 💡 Languages     | Python, C, JavaScript (beginner)          |
+| 💡 Languages     | Python, C, JavaScript (beginner), C++(beginner)          |
 | 🌐 Web Dev       | HTML, CSS, basic JS                       |
 | 🛢️ Databases     | MySQL (learning basics)                   |
-| 🤖 Robotics      | Arduino (beginner), basic sensors         |
+| 🤖 Robotics      |Basic sensors         |
 | ☁️ Cloud         | AWS (Cloud Essentials certified ☁️)        |
 | 🧰 Tools         | Git & GitHub, VS Code, Figma (basic)      |
 
