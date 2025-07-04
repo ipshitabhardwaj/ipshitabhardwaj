@@ -26,7 +26,7 @@
 |-----------------|--------------------------------------------|
 | 💡 Languages     | Python, C, JavaScript (beginner), C++(beginner)          |
 | 🌐 Web Dev       | HTML, CSS, basic JS                       |
-| 🛢️ Databases     | MySQL (learning basics)                   |
+| 🛢️ Databases     | MySQL                |
 | 🤖 Robotics      |Basic sensors         |
 | ☁️ Cloud         | AWS (Cloud Essentials certified ☁️)        |
 | 🧰 Tools         | Git & GitHub, VS Code, Figma (basic)      |
