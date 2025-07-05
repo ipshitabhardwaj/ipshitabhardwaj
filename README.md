@@ -31,13 +31,6 @@
 | ☁️ Cloud         | AWS (Cloud Essentials certified ☁️)        |
 | 🧰 Tools         | Git & GitHub, VS Code, Figma (basic)      |
 
----
-
-## 🏆 Open Source Contributions
-
-- 🌟 First PR: [First Contributions Repo](https://github.com/firstcontributions/first-contributions/pull/99880)  
-- 📄 Docs: [CODE_OF_CONDUCT for Responsively App](https://github.com/responsively-org/responsively-app/pull/1382)  
-- 📘 FAQ Page Contribution: [FAQ for Responsively App](https://github.com/responsively-org/responsively-app/pull/1384)
 
 ---
 
