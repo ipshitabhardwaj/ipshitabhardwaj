@@ -31,19 +31,6 @@
 | ☁️ Cloud         | AWS (Cloud Essentials certified ☁️)        |
 | 🧰 Tools         | Git & GitHub, VS Code, Figma (basic)      |
 
-
----
-
-## ✨ GitHub Trophies
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=ipshitabhardwaj&theme=gruvbox&no-frame=true&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
-## 📊 GitHub Stats
-
-![Ipshita's GitHub stats](https://github-readme-stats.vercel.app/api?username=ipshitabhardwaj&show_icons=true&theme=calm&hide_rank=true)
-
 ---
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=ipshitabhardwaj&theme=calm)](https://git.io/streak-stats)
