@@ -51,9 +51,6 @@
 ---
 
 ## 📫 Connect with Me
-
-- 💼 Portfolio: [ipshitabhardwaj.github.io/Portfolio](https://ipshitabhardwaj.github.io/Portfolio) 
-- 🐙 GitHub: [@ipshitabhardwaj](https://github.com/ipshitabhardwaj)
 - 💼 LinkedIn: [in/ipshita-bhardwaj](https://www.linkedin.com/in/ipshita-bhardwaj)
 
 ---
