@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/badge/Open--Source-%F0%9F%9A%80-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/AI--Explorer-%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB-9cf?style=flat-square" />
   <img src="https://img.shields.io/badge/Cloud%20Certified-AWS%20Essentials-%23FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cozy--Dev-%F0%9F%92%95-cdb4db?style=flat-square" />
 </p>
 
 ---
