@@ -49,5 +49,3 @@ interests   = ["Assistive AI", "Speech processing", "Multimodal systems", "Robot
 ```
 
 ---
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=ipshitabhardwaj&theme=calm)](https://git.io/streak-stats)
