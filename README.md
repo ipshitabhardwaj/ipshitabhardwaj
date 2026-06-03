@@ -1,42 +1,53 @@
-<h1 align="center">Hey there, I'm Ipshita 🤎</h1>
+<h1 align="center">Ipshita Bhardwaj</h1>
+
 <p align="center">
-  A curious mind exploring the magic where AI meets Robotics — one cozy commit at a time ✨
+  B.Tech Robotics & AI · CGC Landran &nbsp;|&nbsp; Summer Trainee @ C-DAC Mohali &nbsp;|&nbsp; Patents in assistive AI
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open--Source-%F0%9F%9A%80-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI--Explorer-%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB-9cf?style=flat-square" />
-  <img src="https://img.shields.io/badge/Cloud%20Certified-AWS%20Essentials-%23FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+  <a href="https://ipshitabhardwaj.netlify.app">
+    <img src="https://img.shields.io/badge/Portfolio-ipshitabhardwaj.netlify.app-black?style=flat-square" />
+  </a>
+  <a href="https://linkedin.com/in/ipshita-bhardwaj">
+    <img src="https://img.shields.io/badge/LinkedIn-ipshita--bhardwaj-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://leetcode.com/u/ipshita_bhardwaj">
+    <img src="https://img.shields.io/badge/LeetCode-164%20solved-FFA116?style=flat-square&logo=leetcode&logoColor=white" />
+  </a>
 </p>
 
 ---
 
-## 🌷 About Me
+## About
 
-- 🧠 BTech student in Artificial Intelligence & Robotics  
-- 💻 Exploring AI, web dev, open source, and cloud  
-- 🌱 Learning by building & breaking things (and exploring a lot)  
+I build AI systems that work with people — assistive technology, emotion-aware interfaces, and multimodal sensing tools. Currently a Summer Trainee at C-DAC Mohali working on generative AI and LLMs.
+
+Two filed patents with IP India: one on real-time stutter correction preserving natural speech prosody, another on radar-based haptic guidance for physical skill training. Both published on ResearchGate.
 
 ---
 
-## 🛠️ Tech Stack (Learning in Progress!)
+## Projects
 
-| Area            | Tools & Technologies                      |
-|-----------------|--------------------------------------------|
-| 💡 Languages     | Python, C, JavaScript (beginner), C++(beginner)          |
-| 🌐 Web Dev       | HTML, CSS, basic JS                       |
-| 🛢️ Databases     | MySQL                |
-| 🤖 Robotics      |Basic sensors         |
-| ☁️ Cloud         | AWS (Cloud Essentials certified ☁️)        |
-| 🧰 Tools         | Git & GitHub, VS Code, Figma (basic)      |
+| Project | What it does | Stack |
+|---|---|---|
+| [VocalMind](https://github.com/ipshitabhardwaj/Vocalmind) | Multimodal stress detection — SVM voice analysis + NLP text classification | Python, Scikit-learn, librosa, Streamlit |
+| [PaperPilot](https://github.com/ipshitabhardwaj/Paper-Pilot) | AI research paper analysis engine | React, Node.js, Gemini API, arXiv API |
+| [GitScope](https://github.com/ipshitabhardwaj/GitScope) | GitHub repo intelligence with live dependency graphs | Next.js, D3, Cytoscape, PostgreSQL |
+| [Whisper.txt](https://github.com/ipshitabhardwaj/whisper.txt) | A full-stack anonymous message-sharing platform with AI-powered reflections. | React, TypeScript, Gemini API, Vite |
+| [Luna](https://github.com/ipshitabhardwaj/AI_Comfort_Pet) | Emotion-aware AI companion — 7-emotion classification | Python, Scikit-learn, HuggingFace |
+
+---
+
+## Stack
+
+```python
+languages   = ["Python", "JavaScript", "TypeScript", "C", "C++", "SQL"]
+ai_ml       = ["PyTorch", "Scikit-learn", "NumPy", "Pandas", "librosa", "HuggingFace"]
+web         = ["React", "Next.js", "Node.js", "Tailwind CSS", "Streamlit"]
+tools       = ["Git", "GitHub", "AWS", "Vercel", "Jupyter", "VS Code"]
+interests   = ["Assistive AI", "Speech processing", "Multimodal systems", "Robotics"]
+```
 
 ---
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=ipshitabhardwaj&theme=calm)](https://git.io/streak-stats)
-
----
-
-## 📫 Connect with Me
-- 💼 LinkedIn: [in/ipshita-bhardwaj](https://www.linkedin.com/in/ipshita-bhardwaj)
-
----
