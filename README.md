@@ -1,7 +1,7 @@
 <h1 align="center">Ipshita Bhardwaj</h1>
 
 <p align="center">
-  B.Tech Robotics & AI · CGC Landran &nbsp;|&nbsp; Summer Trainee @ C-DAC Mohali &nbsp;|&nbsp; Patents in assistive AI
+  B.Tech Robotics & AI · CEC &nbsp;|&nbsp; Patents in assistive AI
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## About
 
-I build AI systems that work with people — assistive technology, emotion-aware interfaces, and multimodal sensing tools. Currently a Summer Trainee at C-DAC Mohali working on generative AI and LLMs.
+I build AI systems that work with people — assistive technology, emotion-aware interfaces, and multimodal sensing tools. Exploring and working on generative AI and LLMs.
 
 Two filed patents with IP India: one on real-time stutter correction preserving natural speech prosody, another on radar-based haptic guidance for physical skill training. Both published on ResearchGate.
 
