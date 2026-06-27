@@ -11,9 +11,6 @@
   <a href="https://linkedin.com/in/ipshita-bhardwaj">
     <img src="https://img.shields.io/badge/LinkedIn-ipshita--bhardwaj-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://leetcode.com/u/ipshita_bhardwaj">
-    <img src="https://img.shields.io/badge/LeetCode-164%20solved-FFA116?style=flat-square&logo=leetcode&logoColor=white" />
-  </a>
 </p>
 
 ---
