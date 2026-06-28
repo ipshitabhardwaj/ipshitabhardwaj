@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://ipshitabhardwaj.netlify.app">
-    <img src="https://img.shields.io/badge/Portfolio-ipshitabhardwaj.netlify.app-black?style=flat-square" />
+    <img src="https://img.shields.io/badge/Portfolio-ipshitabhardwaj.me-black?style=flat-square" />
   </a>
   <a href="https://linkedin.com/in/ipshita-bhardwaj">
     <img src="https://img.shields.io/badge/LinkedIn-ipshita--bhardwaj-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
