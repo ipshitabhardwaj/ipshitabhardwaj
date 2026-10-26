@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-  <img width="100%" src="./assets/header-dark.svg" alt="Ipshita Bhardwaj — AI/ML engineer and researcher" />
+  <img width="100%" src="./assets/header-dark.svg" alt="Ipshita Bhardwaj — software and AI/ML engineer" />
 </picture>
 
 <p align="center">
-  <b>AI/ML engineer & researcher</b> building models and software whose decisions can be explained, tested and replayed.
+  <b>Software & AI/ML engineer</b> building models and systems whose decisions can be explained, tested and replayed.
   <br />
   <sub>B.Tech Robotics & Artificial Intelligence · Chandigarh Engineering College, CGC Landran · 2024–2028</sub>
 </p>
@@ -13,67 +13,87 @@
 <p align="center">
   <a href="https://ipshitabhardwaj.me"><img src="https://img.shields.io/badge/portfolio-ipshitabhardwaj.me-e6edf3?style=flat-square&labelColor=0d1117" /></a>
   <a href="https://linkedin.com/in/ipshita-bhardwaj"><img src="https://img.shields.io/badge/linkedin-ipshita--bhardwaj-e6edf3?style=flat-square&labelColor=0d1117" /></a>
-  <img src="https://img.shields.io/badge/patents_filed-5-e6edf3?style=flat-square&labelColor=0d1117" />
 </p>
 
 <br />
 
-### `00` &nbsp;The short version
-
-I work on models that read messy real-world data, including satellite imagery, aerial photos, speech, sensor signals and plain-language documents, and on the software that turns their output into something a person can act on. The common thread is accountability. A cyclone grade comes with a Grad-CAM map and a confidence score. A policy audit comes with a replayable path and the exact sentence it rests on. If a system can't show why it decided something, I don't consider it finished.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
+  <img width="100%" src="./assets/stats-dark.svg" alt="5 patent applications · 3 first-place finishes · 2 top-10 hackathon finals · Amazon ML Challenge rank 454 of 89,000+" />
+</picture>
 
 <br />
 
-### `01` &nbsp;Selected builds
+I build models that read messy real-world data, including satellite imagery, aerial photos, speech, sensor signals and plain-language documents, and the software that turns their output into something a person can act on. The common thread is accountability. A cyclone grade comes with a Grad-CAM map and a confidence score. A policy audit comes with a replayable path and the exact sentence it rests on. If a system can't show why it decided something, I don't consider it finished.
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/s01-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/s01-light.svg" />
+  <img width="100%" src="./assets/s01-dark.svg" alt="§01 Selected builds" />
+</picture>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Dry Run** <!-- add repo link -->
+[**Dry Run**](https://github.com/ipshitabhardwaj/Dry-Run)
 <br /><sub>Python · FastAPI · Pydantic · Ollama (Phi-4-mini) · pytest</sub>
 
-Compiles a written policy or SOP into an explicit state machine using a local open-weight LLM, then finds where a real person would get stuck. A deterministic engine runs exhaustive BFS with 6 failure-injection classes. Every finding carries a replayable path and sentence-level citations.
+A process debugger. It compiles a written policy or SOP into an explicit state machine with a local open-weight LLM, then runs failure scenarios through it to find where a real person would get stuck. The LLM only interprets; a deterministic engine (exhaustive BFS, 6 failure-injection classes) does the verifying, and every finding carries a replayable path and the exact sentence it rests on.
 
 <sub>Solo build · MIT · 46 tests in CI · Top 10, MLH Hacktoberfest Hack Day</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**Cyclone Intensity Classifier & Forecaster** <!-- add repo link -->
-<br /><sub>PyTorch · EfficientNet-B0 · GRU · Streamlit</sub>
+**Paatrata** <!-- add repo link -->
+<br /><sub>AI for Digital Public Infrastructure</sub>
 
-A dual-head EfficientNet-B0 grades cyclones on IMD's 8-category scale and estimates wind speed and pressure from 1,032 real satellite images. A GRU forecaster then predicts wind speed at +6h, +12h and +24h, with MC-Dropout confidence and rapid-intensification alerts.
+A scheme-rules compiler. It reads welfare-scheme documents and turns them into eligibility rules that are cited back to the source text and tested, so a decision about who qualifies can be checked line by line.
 
-<sub>Team build · SIH 2026 · 24h MAE 30.6 vs 38.5 km/h persistence baseline</sub>
+<sub>Team build with Veydant Bhardwaj · Top 10, Code for Communities Chandigarh</sub>
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+**Cyclone Intensity Classifier & Forecaster** <!-- add repo link -->
+<br /><sub>PyTorch · EfficientNet-B0 · GRU · Streamlit</sub>
+
+A dual-head EfficientNet-B0 grades cyclones on IMD's 8-category scale and estimates wind speed and pressure from 1,032 real satellite images. A GRU forecaster predicts wind speed at +6h, +12h and +24h, with Grad-CAM, MC-Dropout confidence and rapid-intensification alerts.
+
+<sub>Team build · SIH 2026 Grand Finale · 24h MAE 30.6 vs 38.5 km/h persistence baseline</sub>
+
+</td>
 <td width="50%" valign="top">
 
 **Disaster Severity** <!-- add repo link -->
 <br /><sub>TensorFlow/Keras · OpenCV · Streamlit</sub>
 
-Explainable damage classification on 16,700+ aerial images across 4 classes. Includes a review dashboard with Grad-CAM, confidence-based triage and PDF reports.
+Explainable damage classification on 16,700+ aerial images across 4 classes, with a review dashboard for Grad-CAM, confidence-based triage and PDF reports.
 
 <sub>97% accuracy · 0.96 macro F1</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 [**PaperPilot**](https://github.com/ipshitabhardwaj/Paper-Pilot)
 <br /><sub>React · TypeScript · Node.js · Gemini API · arXiv API</sub>
 
-A research platform for uploaded PDFs and arXiv papers. It produces summaries and reviewer-style critique, and answers questions through a RAG pipeline grounded in the document.
+A research platform for uploaded PDFs and arXiv papers. It writes summaries and reviewer-style critique, and answers questions through a RAG pipeline grounded in the document.
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
-[**GitScope**](https://github.com/ipshitabhardwaj/GitScope) &nbsp;<sub>Next.js · TypeScript · D3 · Cytoscape · Sigma.js · Drizzle</sub>
-<br />
+[**GitScope**](https://github.com/ipshitabhardwaj/GitScope)
+<br /><sub>Next.js · TypeScript · D3 · Cytoscape · Sigma.js · Drizzle</sub>
+
 Repository intelligence that maps 2,000+ nodes across contributor networks, commit history and file dependencies, served through real-time APIs.
 
 </td>
@@ -84,35 +104,39 @@ Repository intelligence that maps 2,000+ nodes across contributor networks, comm
 
 <br />
 
-### `02` &nbsp;Inventions
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/s02-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/s02-light.svg" />
+  <img width="100%" src="./assets/s02-dark.svg" alt="§02 Inventions" />
+</picture>
 
-Five patent applications filed. Each one is built around a model that reads a raw signal, catches a problem early, and responds without getting in the way.
-
-| | Invention | Core idea |
-|:--:|:--|:--|
-| **I** | Stutter correction via TinyML | Lightweight on-device model that corrects stutters in real time while preserving natural prosody |
-| **II** | Radar-based haptic guidance | Interpreting mmWave radar motion data to drive haptic feedback for skill training |
-| **III** | In-pipe acoustic leak detection | Acoustic signal analysis that detects and localises leaks inside water pipelines |
-| **IV** | Vibration-based condition monitoring | Vibration-signal models that flag failing industrial machines before breakdown |
-<!-- | **V** | FIFTH PATENT TITLE | ONE-LINE CORE IDEA | -->
-
-<br />
-
-### `03` &nbsp;Recognition
-
-```
-2026  Smart India Hackathon         Grand Finale          cyclone classification & forecasting (SIH26070)
-2026  MLH Hacktoberfest Hack Day    Top 10 Finalist       Dry Run, Best Open-Source AI Project track
-2026  ICCMST                        1st Prize, Poster     KinesisPro research
-2026  INNOTECH, Science City        1st Place
-2026  Amazon ML Challenge           Rank 454              of 89,000+ registrants
-      IIM Rohtak, Mind Your Metrics National Rank 4       business analytics
-      CGC x GeeksforGeeks           1st Place             Innovators Hub project display
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/patents-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/patents-light.svg" />
+  <img width="100%" src="./assets/patents-dark.svg" alt="Five patent applications: stutter correction with prosody-preserving speech editing; radar-based haptic guidance; in-pipe acoustic leak detection; vibration-based machine condition monitoring; wearable multi-modal glove for personalised gesture recognition" />
+</picture>
 
 <br />
 
-### `04` &nbsp;Toolkit
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/s03-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/s03-light.svg" />
+  <img width="100%" src="./assets/s03-dark.svg" alt="§03 Recognition" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/recognition-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/recognition-light.svg" />
+  <img width="100%" src="./assets/recognition-dark.svg" alt="Recognition 2026: SIH Grand Finale; 1st Prize ICCMST; 1st Place INNOTECH; 1st Place CGC × GeeksforGeeks; Top 10 MLH Hack Day; Top 10 Code for Communities; Amazon ML Challenge rank 454; IIM Rohtak National Rank 4" />
+</picture>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/s04-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/s04-light.svg" />
+  <img width="100%" src="./assets/s04-dark.svg" alt="§04 Toolkit" />
+</picture>
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,c,pytorch,tensorflow,sklearn,fastapi,nodejs,express,react,nextjs,postgres,sqlite,githubactions,aws,git&perline=9&theme=dark" />
@@ -123,12 +147,6 @@ Five patent applications filed. Each one is built around a model that reads a ra
 <br />
 <br />
 
-### `05` &nbsp;Where I'm headed
-
-Industry ML engineering and applied research, especially explainable models, local LLMs, and multimodal systems that have to work outside the lab.
-
-<br />
-
 <p align="center">
-  <sub>Open to research collaborations and ML roles · <a href="https://ipshitabhardwaj.me">ipshitabhardwaj.me</a></sub>
+  <sub>Open to software and ML engineering roles · <a href="https://ipshitabhardwaj.me">ipshitabhardwaj.me</a></sub>
 </p>
