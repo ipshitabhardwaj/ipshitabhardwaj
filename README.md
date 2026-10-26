@@ -1,8 +1,8 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<a href="https://ipshitabhardwaj.me">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1f2a44&height=150&section=header&text=Ipshita%20Bhardwaj&fontSize=46&fontColor=e6edf3&fontAlignY=42&desc=AI%20that%20can%20show%20its%20work&descSize=16&descAlignY=72&descAlign=50" alt="Ipshita Bhardwaj" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img width="100%" src="./assets/header-dark.svg" alt="Ipshita Bhardwaj — AI/ML engineer and researcher" />
+</picture>
 
 <p align="center">
   <b>AI/ML engineer & researcher</b> building models and software whose decisions can be explained, tested and replayed.
@@ -13,8 +13,7 @@
 <p align="center">
   <a href="https://ipshitabhardwaj.me"><img src="https://img.shields.io/badge/portfolio-ipshitabhardwaj.me-e6edf3?style=flat-square&labelColor=0d1117" /></a>
   <a href="https://linkedin.com/in/ipshita-bhardwaj"><img src="https://img.shields.io/badge/linkedin-ipshita--bhardwaj-e6edf3?style=flat-square&labelColor=0d1117" /></a>
-  <img src="https://img.shields.io/badge/patents_filed-4-e6edf3?style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/publications-3-e6edf3?style=flat-square&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/patents_filed-5-e6edf3?style=flat-square&labelColor=0d1117" />
 </p>
 
 <br />
@@ -87,7 +86,7 @@ Repository intelligence that maps 2,000+ nodes across contributor networks, comm
 
 ### `02` &nbsp;Inventions
 
-Four patent applications filed. Each one is built around a model that reads a raw signal, catches a problem early, and responds without getting in the way.
+Five patent applications filed. Each one is built around a model that reads a raw signal, catches a problem early, and responds without getting in the way.
 
 | | Invention | Core idea |
 |:--:|:--|:--|
@@ -95,6 +94,7 @@ Four patent applications filed. Each one is built around a model that reads a ra
 | **II** | Radar-based haptic guidance | Interpreting mmWave radar motion data to drive haptic feedback for skill training |
 | **III** | In-pipe acoustic leak detection | Acoustic signal analysis that detects and localises leaks inside water pipelines |
 | **IV** | Vibration-based condition monitoring | Vibration-signal models that flag failing industrial machines before breakdown |
+<!-- | **V** | FIFTH PATENT TITLE | ONE-LINE CORE IDEA | -->
 
 <br />
 
@@ -112,15 +112,7 @@ Four patent applications filed. Each one is built around a model that reads a ra
 
 <br />
 
-### `04` &nbsp;Research in progress
-
-- **CIRFAD** — context-aware fault-detection models that reject interference in vibration data from MSME machines
-- **Argument mining on the Bhagavad Gita** — formalising the text's dialectical structure with NLP
-- **Offline edge networks** — two devices running local SLMs that find each other, connect securely, and share knowledge with no internet
-
-<br />
-
-### `05` &nbsp;Toolkit
+### `04` &nbsp;Toolkit
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,c,pytorch,tensorflow,sklearn,fastapi,nodejs,express,react,nextjs,postgres,sqlite,githubactions,aws,git&perline=9&theme=dark" />
@@ -131,7 +123,7 @@ Four patent applications filed. Each one is built around a model that reads a ra
 <br />
 <br />
 
-### `06` &nbsp;Where I'm headed
+### `05` &nbsp;Where I'm headed
 
 Industry ML engineering and applied research, especially explainable models, local LLMs, and multimodal systems that have to work outside the lab.
 
@@ -140,5 +132,3 @@ Industry ML engineering and applied research, especially explainable models, loc
 <p align="center">
   <sub>Open to research collaborations and ML roles · <a href="https://ipshitabhardwaj.me">ipshitabhardwaj.me</a></sub>
 </p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1f2a44,100:0d1117&height=4&section=footer" />
