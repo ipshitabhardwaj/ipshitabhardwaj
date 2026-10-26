@@ -1,13 +1,13 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <a href="https://ipshitabhardwaj.me">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1f2a44&height=150&section=header&text=Ipshita%20Bhardwaj&fontSize=46&fontColor=e6edf3&fontAlignY=42&desc=sense%20%E2%86%92%20decide%20%E2%86%92%20assist&descSize=16&descAlignY=72&descAlign=50" alt="Ipshita Bhardwaj" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1f2a44&height=150&section=header&text=Ipshita%20Bhardwaj&fontSize=46&fontColor=e6edf3&fontAlignY=42&desc=AI%20that%20can%20show%20its%20work&descSize=16&descAlignY=72&descAlign=50" alt="Ipshita Bhardwaj" />
 </a>
 
 <p align="center">
-  <b>Software & AI/ML engineer</b> building the intelligence layer: models and software that read messy real-world signals and turn them into decisions people can trust.
+  <b>AI/ML engineer & researcher</b> building models and software whose decisions can be explained, tested and replayed.
   <br />
-  <sub>B.Tech Robotics & Artificial Intelligence · Chandigarh Engineering College, CGC Landran</sub>
+  <sub>B.Tech Robotics & Artificial Intelligence · Chandigarh Engineering College, CGC Landran · 2024–2028</sub>
 </p>
 
 <p align="center">
@@ -21,11 +21,71 @@
 
 ### `00` &nbsp;The short version
 
-Most of my work is the reasoning behind sensing systems: models that turn raw speech, radar, acoustic and vibration signals into something useful. That means feedback that smooths a stutter, guidance that teaches movement, or a call on whether a machine is actually failing or just noisy. I work on the ML, the software around it, and the research that connects them. I care less about demos and more about systems that hold up when the input is messy and the stakes are real.
+I work on models that read messy real-world data, including satellite imagery, aerial photos, speech, sensor signals and plain-language documents, and on the software that turns their output into something a person can act on. The common thread is accountability. A cyclone grade comes with a Grad-CAM map and a confidence score. A policy audit comes with a replayable path and the exact sentence it rests on. If a system can't show why it decided something, I don't consider it finished.
 
 <br />
 
-### `01` &nbsp;Inventions
+### `01` &nbsp;Selected builds
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Dry Run** <!-- add repo link -->
+<br /><sub>Python · FastAPI · Pydantic · Ollama (Phi-4-mini) · pytest</sub>
+
+Compiles a written policy or SOP into an explicit state machine using a local open-weight LLM, then finds where a real person would get stuck. A deterministic engine runs exhaustive BFS with 6 failure-injection classes. Every finding carries a replayable path and sentence-level citations.
+
+<sub>Solo build · MIT · 46 tests in CI · Top 10, MLH Hacktoberfest Hack Day</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Cyclone Intensity Classifier & Forecaster** <!-- add repo link -->
+<br /><sub>PyTorch · EfficientNet-B0 · GRU · Streamlit</sub>
+
+A dual-head EfficientNet-B0 grades cyclones on IMD's 8-category scale and estimates wind speed and pressure from 1,032 real satellite images. A GRU forecaster then predicts wind speed at +6h, +12h and +24h, with MC-Dropout confidence and rapid-intensification alerts.
+
+<sub>Team build · SIH 2026 · 24h MAE 30.6 vs 38.5 km/h persistence baseline</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Disaster Severity** <!-- add repo link -->
+<br /><sub>TensorFlow/Keras · OpenCV · Streamlit</sub>
+
+Explainable damage classification on 16,700+ aerial images across 4 classes. Includes a review dashboard with Grad-CAM, confidence-based triage and PDF reports.
+
+<sub>97% accuracy · 0.96 macro F1</sub>
+
+</td>
+<td width="50%" valign="top">
+
+[**PaperPilot**](https://github.com/ipshitabhardwaj/Paper-Pilot)
+<br /><sub>React · TypeScript · Node.js · Gemini API · arXiv API</sub>
+
+A research platform for uploaded PDFs and arXiv papers. It produces summaries and reviewer-style critique, and answers questions through a RAG pipeline grounded in the document.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+[**GitScope**](https://github.com/ipshitabhardwaj/GitScope) &nbsp;<sub>Next.js · TypeScript · D3 · Cytoscape · Sigma.js · Drizzle</sub>
+<br />
+Repository intelligence that maps 2,000+ nodes across contributor networks, commit history and file dependencies, served through real-time APIs.
+
+</td>
+</tr>
+</table>
+
+<sub>Earlier work: [VocalMind](https://github.com/ipshitabhardwaj/Vocalmind) (voice + text stress detection) · [Luna](https://github.com/ipshitabhardwaj/AI_Comfort_Pet) (7-class emotion recognition) · [Whisper.txt](https://github.com/ipshitabhardwaj/whisper.txt) (anonymous messaging with AI reflections)</sub>
+
+<br />
+
+### `02` &nbsp;Inventions
 
 Four patent applications filed. Each one is built around a model that reads a raw signal, catches a problem early, and responds without getting in the way.
 
@@ -38,17 +98,21 @@ Four patent applications filed. Each one is built around a model that reads a ra
 
 <br />
 
-### `02` &nbsp;Recognition
+### `03` &nbsp;Recognition
 
 ```
-2026  Smart India Hackathon — Grand Finale         AI/ML tropical cyclone identification from satellite data
-2026  ICCMST — 1st Prize, Research Poster          KinesisPro: mmWave radar + edge AI + wearable haptics
-2026  Amazon ML Challenge — Rank 454               live leaderboard
+2026  Smart India Hackathon         Grand Finale          cyclone classification & forecasting (SIH26070)
+2026  MLH Hacktoberfest Hack Day    Top 10 Finalist       Dry Run, Best Open-Source AI Project track
+2026  ICCMST                        1st Prize, Poster     KinesisPro research
+2026  INNOTECH, Science City        1st Place
+2026  Amazon ML Challenge           Rank 454              of 89,000+ registrants
+      IIM Rohtak, Mind Your Metrics National Rank 4       business analytics
+      CGC x GeeksforGeeks           1st Place             Innovators Hub project display
 ```
 
 <br />
 
-### `03` &nbsp;Research in progress
+### `04` &nbsp;Research in progress
 
 - **CIRFAD** — context-aware fault-detection models that reject interference in vibration data from MSME machines
 - **Argument mining on the Bhagavad Gita** — formalising the text's dialectical structure with NLP
@@ -56,32 +120,20 @@ Four patent applications filed. Each one is built around a model that reads a ra
 
 <br />
 
-### `04` &nbsp;Selected builds
-
-| Project | What it does | Built with |
-|:--|:--|:--|
-| [**VocalMind**](https://github.com/ipshitabhardwaj/Vocalmind) | Multimodal stress detection from voice and text | Python · scikit-learn · librosa · Streamlit |
-| [**PaperPilot**](https://github.com/ipshitabhardwaj/Paper-Pilot) | Research-paper analysis engine over arXiv | React · Node.js · Gemini API |
-| [**GitScope**](https://github.com/ipshitabhardwaj/GitScope) | Repository intelligence with live dependency graphs | Next.js · D3 · Cytoscape · PostgreSQL |
-| [**Whisper.txt**](https://github.com/ipshitabhardwaj/whisper.txt) | Anonymous messaging with AI-generated reflections | React · TypeScript · Gemini API |
-| [**Luna**](https://github.com/ipshitabhardwaj/AI_Comfort_Pet) | Emotion-aware companion with 7-class emotion recognition | Python · scikit-learn · Hugging Face |
-
-<br />
-
 ### `05` &nbsp;Toolkit
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,pytorch,sklearn,react,nextjs,nodejs,postgres,tailwind,aws,vercel,git,linux&perline=8&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,c,pytorch,tensorflow,sklearn,fastapi,nodejs,express,react,nextjs,postgres,sqlite,githubactions,aws,git&perline=9&theme=dark" />
 </p>
 
-<sub>Also: NumPy · Pandas · librosa · Hugging Face · Streamlit · TinyML · LLMs & GenAI · audio and signal processing</sub>
+<sub>Also: NumPy · Pandas · OpenCV · Hugging Face · Ollama · RAG · Pydantic · pytest · Vitest · Streamlit · TinyML</sub>
 
 <br />
 <br />
 
 ### `06` &nbsp;Where I'm headed
 
-Industry ML engineering and applied research — especially speech, multimodal perception, and on-device AI that has to work outside the lab.
+Industry ML engineering and applied research, especially explainable models, local LLMs, and multimodal systems that have to work outside the lab.
 
 <br />
 
